@@ -43,6 +43,7 @@ class Device(models.Model):
 
     class Meta:
         unique_together = (('device_token', 'is_test_device'),)
+        abstract = True
     
     def _getApnHostName(self):
         """
