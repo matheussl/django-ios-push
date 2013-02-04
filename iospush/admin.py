@@ -10,4 +10,4 @@ class DeviceAdmin(admin.ModelAdmin):
     search_fields = ('',)
     pass
 
-admin.site.register(Device, DeviceAdmin)
+#admin.site.register(Device, DeviceAdmin)
